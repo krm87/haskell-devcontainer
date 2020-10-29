@@ -1,0 +1,13 @@
+{
+    "name": "Haskell 8.10.2 with HLS", // Devcontainer name
+    "build": { "dockerfile": "Dockerfile" },
+
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "terminal.integrated.shell.windows": "C:\\Users\\k\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    },
+
+    "extensions": [
+        "haskell.haskell"
+    ]
+}
